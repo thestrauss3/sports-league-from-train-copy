@@ -1,0 +1,30 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.favorites {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.routes {
+  order: 1;
+}
+
+.trains {
+  order: 2;
+}
+
+.stations {
+  order: 3;
+}
